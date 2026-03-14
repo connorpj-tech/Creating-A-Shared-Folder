@@ -17,6 +17,19 @@ This SOP will create a shared folder for users to backup files to the Active Dir
 - <b> Right click and select New Share
 - <b> Keep the Share Profile and Location as default.  Name share mydomain.local
 - <b> Click next through the wizard and create share
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/New%20Share.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Name%20Share.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Create%20Share.png"/></td>
+    </tr>
+       <td align="center"><b>New Share</b></td>
+       <td align="center"><b>Name Share</b></td>
+       <td align="center"><b>Create Share</b></td>
+       </tr>
+  </table>
+</div>
 
 **2. Create a Home Folder**
 
@@ -24,18 +37,48 @@ This SOP will create a shared folder for users to backup files to the Active Dir
 - <b> Create a new folder HOME
 - <b> Right click on folder and select Properties.  Under the sharing tab select Advanced Sharing
 - <b> Checkmark Share Folder and click apply
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Create%20Home%20Folder.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Share%20Folder.png"/></td>
+    </tr>
+       <td align="center"><b>Create Home Folder</b></td>
+       <td align="center"><b>Share Folder</b></td>
+       </tr>
+  </table>
+</div>
 
-**3. Secure Folder**
+**3. Security and Permissions**
 
 - <b> While in properties select the Security Tab and click on advanced
 - <b> Disable inheritance and select Convert Inhertied permissions into explicit permissions
 - <b> Remove Users to secure the folder only to authorized users
-- <b> Click on Add and Select a Principle
+- <b> Click on Add. Select a Principle
 - <b> Type in authorized Users that will be able to use this folder.  Select Check Names and click okay
 - <b> Checkmark Modify and click okay.  Check Home properties to verify user is authenticated
-- <b> Under the Shared tab click on share to give user Read/Write permissions.  Click on share to give user access  
+- <b> Under the Shared tab click on share to give user Read/Write permissions.  Click on share to give user access
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Advance%20Security.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Disable%20Inhertiance.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Select%20User.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Permissions.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Read%20Write.png"/></td>
+    </tr>
+       <td align="center"><b>Advanced Security</b></td>
+       <td align="center"><b>Disable Inheritance</b></td>
+       <td align="center"><b>Select User</b></td>
+       <td align="center"><b>Permissions</b></td>
+       <td align="center"><b>Read Write Permissions</b></td>
+       </tr>
+  </table>
+</div>
 
-**4. Change User Settings**
+
+
+**4. Change User Profile**
 
 - <b> In the properties tab of the shared folder, go to the shared tab and copy the Network Path
 - <b> Open Active Directory Users and Computers and select the User.  Right click and select properties
