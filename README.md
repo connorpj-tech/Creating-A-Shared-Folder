@@ -84,10 +84,31 @@ This SOP will create a shared folder for users to backup files to the Active Dir
 - <b> Open Active Directory Users and Computers and select the User.  Right click and select properties
 - <b> Under the Profile tab select Home Folder: Connect
 - <b> Assign a letter to the drive and paste the file path of the folder.  Click apply and okay to save settings
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Network%20Path.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Profile%20Settings.png"/></td>
+    </tr>
+       <td align="center"><b>Network Path</b></td>
+       <td align="center"><b>Profile Settings</b></td>
+       </tr>
+  </table>
+</div>
 
 **5. Login as User**
 
 - <b> Login as the authorized user to a Windows 11 Pro workstation associated with the Active Directory Domain Server
 - <b> Open File Explorer and click on This PC.  Under Network Sharing open new shared folder
-- <b> Right click to create a new text document to make sure user is authenticated.  Verify the text document appears on the Domain Controller's home folder as well
-- <b> 
+- <b> Right click to create a new text document to make sure user is authenticated.  Verify the text document appears in the Domain Controller's same shared home folder
+<div align="left">
+  <table>
+    <tr>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Test%20Doc.png"/></td>
+      <td><img width="400" src="https://github.com/connorpj-tech/Creating-A-Shared-Folder/blob/main/Verified%20Doc%20Share.png"/></td>
+    </tr>
+       <td align="center"><b>Test Doc</b></td>
+       <td align="center"><b>Verify</b></td>
+       </tr>
+  </table>
+</div>
